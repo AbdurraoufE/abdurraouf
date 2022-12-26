@@ -16,7 +16,7 @@ const Contact = () => {
                     <a href="mailto:Roofa.Etagiuri1@gmail.com"> 
                       <button className='text-white border-2 bg-[#0D1116] hover:bg-green-600 hover:border-green-600 px-8 py-3 my-8 mx-auto flex sm:items-left md:items-center rounded-br-lg grid-cols-2 sm:grid-cols-4 gap-4 text-center'>Email</button>
                     </a>
-                    <a href="https://drive.google.com/file/d/1qX4iB4JqZejm6P2G-lQjoq9DKXq8LOBR/view?usp=sharing"> 
+                    <a href="https://drive.google.com/file/d/1aTu-VKaT4mujMH9Bklxffax00yAMrgoN/view?usp=sharing"> 
                       <button className='text-white border-2 bg-[#0D1116] hover:bg-yellow-600 hover:border-yellow-600 px-8 py-3 my-8 mx-auto flex sm:items-left md:items-center rounded-br-lg grid-cols-2 sm:grid-cols-4 gap-4 text-center'>Resume</button>
                     </a>
                     <a href="https://github.com/AbdurraoufE"> 
