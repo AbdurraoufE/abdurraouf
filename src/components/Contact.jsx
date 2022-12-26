@@ -5,7 +5,7 @@ const Contact = () => {
     <div name='contact' className='w-full h-screen bg-[#0D1116] justify-center items-center p-20 px-10 pb-1 mx-auto md:grid-cols-3 content-start group align-baseline m-auto mx:container'>
       <div className='text-4xl font-bold inline border-b-4 border-blue-600 text-gray-300 align-baseline'>Contact me
       <div className='py-3 my-8 mx-auto flex space-x-[75px] '>
-        <a href="https://www.linkedin.com/in/abdurraouf/"> 
+        <a href="https://www.linkedin.com/in/abdurraouf/">
           <button className='text-white border-2 bg-[#0D1116] hover:bg-blue-600 hover:border-blue-600 px-8 py-3 my-8 mx-auto flex sm:items-left md:items-center rounded-br-lg grid-cols-2 sm:grid-cols-4 gap-4 text-center'>LinkedIn </button> 
         </a>
         <a href="mailto:Roofa.Etagiuri1@gmail.com"> 
