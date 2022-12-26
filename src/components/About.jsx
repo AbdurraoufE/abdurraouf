@@ -17,7 +17,8 @@ const About = () => {
                         <p># I am Abdurraouf Etagiuri. Nice to meet you!</p>
                     </div>
                     <div>
-                       <p> // WRITE ABOUT ME HERE WRITE ABOUT ME HERE 
+                       <p> // I find coding really interesting and by thinking about ideas and
+                              implementing them into reality. 
                        </p> 
                     </div>
             </div>
