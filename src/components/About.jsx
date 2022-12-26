@@ -17,8 +17,11 @@ const About = () => {
                         <p># I am Abdurraouf Etagiuri. Nice to meet you!</p>
                     </div>
                     <div>
-                       <p> // I find coding really interesting and by thinking about ideas and
-                              implementing them into reality. 
+                       <p> // I am a passionate computer science student, with a deep
+                              love for coding and the ability to turn imaginary ideas
+                              into reality through code. This varies from a very complex topics
+                              to a very simple website. I am looking forwards for new opportunities
+                              to learn and grow as a developer. 
                        </p> 
                     </div>
             </div>
