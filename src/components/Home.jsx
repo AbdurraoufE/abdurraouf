@@ -14,7 +14,7 @@ const Home = () => {
                 University of Saskatchewan. I love developing and creating new Projects 
                 in either a group setting or alone. */</p>
             <div>
-                <a href="/">
+                <a href="https://drive.google.com/file/d/1qX4iB4JqZejm6P2G-lQjoq9DKXq8LOBR/view?usp=sharing">
                   <button id="downloadBtn" value="download" className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-blue-600 hover:border-blue-600'>My work 
                 <span className='group-hover:rotate-90 duration-300'>
                 <HiArrowNarrowRight className='ml-3'> </HiArrowNarrowRight>
