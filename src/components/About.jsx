@@ -21,7 +21,7 @@ const About = () => {
                               love for coding and the ability to turn imaginary ideas
                               into reality through code. This varies from a very complex topics
                               to a very simple website. I am looking forwards for new opportunities
-                              to learn and grow as a developer. Please let me know if there are any opportunities.
+                              to learn and grow as a developer.
                        </p> 
                     </div>
             </div>
