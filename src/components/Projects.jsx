@@ -13,16 +13,18 @@ const Projects = () => {
             </div>
     
         {/* Container */}
-        <div className='space-y-10 sm:grid-cols-2 md:grid-cols-3 gap-4 'src={portfolio}>
+        <div className='space-y-10 text-center sm:grid-cols-2 md:grid-cols-3 gap-4 'src={portfolio}>
 
             {/* Card container */}
             <div style={{backgroundImage: `url(${portfolio})`}} className='transition ease-in-out delay-200 hover:-translate-y-1 hover:scale-110 duration-600  shadow-lg shadow-[rgb(126,34,206)] group container rounded-md flex justify-center items-cener mx-auto content-div'>
 
                 {/* Hover effect */}
-                <div className='opacity-0 group-hover:opacity-100'>
+                <div className=' py-10 opacity-0 group-hover:opacity-100'>
+                    
                     <span className='text-2xl font-bold text-white tracking-wider'>
                         My Portfolio
                     </span>
+                    
                     <div className='pt-8 text-center items-center'>
                         <a href="https://abdurraoufe.github.io/abdurraouf/"> 
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
@@ -37,8 +39,8 @@ const Projects = () => {
             <div style={{backgroundImage:`url(${LMS})`}} className='transition ease-in-out delay-200 hover:-translate-y-1 hover:scale-110 duration-600 shadow-lg shadow-[rgb(126,34,206)] group container rounded-md flex justify-center items-cener mx-auto content-div'>
 
             {/* Hover effect */}
-            <div className='opacity-0 group-hover:opacity-100'>
-                <span className='text-2xl font-bold text-white tracking-wider'>
+            <div className='py-10 opacity-0 group-hover:opacity-100'>
+                <span className=' text-center text-2xl font-bold text-white tracking-wider'>
                 Library Management System Group Project
                 </span>
                 <div className='pt-8 text-center'>
@@ -57,8 +59,8 @@ const Projects = () => {
         <div style={{backgroundImage:`url(${comingSoon})`}} className='transition ease-in-out delay-200 hover:-translate-y-1 hover:scale-110 duration-600 shadow-lg shadow-[rgb(126,34,206)] group container rounded-md flex justify-center items-cener mx-auto content-div'>
 
             {/* Hover effect */}
-            <div className='opacity-0 group-hover:opacity-100'>
-                <span className='text-2xl font-bold text-white tracking-wider'>
+            <div className='py-10 opacity-0 group-hover:opacity-100'>
+                <span className='space-y-7  text-2xl font-bold text-white tracking-wider'>
                     Coming Soon...
                 </span>
                 <div className='pt-8 text-center'>
@@ -79,8 +81,8 @@ const Projects = () => {
         <div style={{backgroundImage:`url(${comingSoon})`}} className='transition ease-in-out delay-200 hover:-translate-y-1 hover:scale-110 duration-600 shadow-lg shadow-[rgb(126,34,206)] group container rounded-md flex justify-center items-cener mx-auto content-div'>
 
             {/* Hover effect */}
-            <div className='opacity-0 group-hover:opacity-100'>
-                <span className='text-2xl font-bold text-white tracking-wider'>
+            <div className='py-10 opacity-0 group-hover:opacity-100'>
+                <span className='space-y-7  text-2xl font-bold text-white tracking-wider'>
                     Coming Soon...
                 </span>
                 <div className='pt-8 text-center'>
@@ -98,8 +100,8 @@ const Projects = () => {
         <div style={{backgroundImage:`url(${comingSoon})`}} className='transition ease-in-out delay-200 hover:-translate-y-1 hover:scale-110 duration-600  shadow-lg shadow-[rgb(126,34,206)] group container rounded-md flex justify-center items-cener mx-auto content-div'>
 
         {/* Hover effect */}
-        <div className='opacity-0 group-hover:opacity-100'>
-            <span className='text-2xl font-bold text-white tracking-wider'>
+        <div className='py-10 opacity-0 group-hover:opacity-100'>
+            <span className='space-y-7 text-2xl font-bold text-white tracking-wider'>
                 Coming Soon...
             </span>
             <div className='pt-8 text-center'>
