@@ -37,7 +37,7 @@ const Contact = () => {
         {/* Info for the top part of contact */}
         <div>
           <p className='text-4xl font-bold inline border-b-4 border-purple-700'> Contact Me</p>
-          <p className='py-4'>/* These are my contact information*/</p>
+          <p className='py-4'>/* These are my contact information */</p>
         </div>
         <div></div>
         <div></div>
