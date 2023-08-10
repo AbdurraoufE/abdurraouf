@@ -13,7 +13,7 @@ const Projects = () => {
             </div>
     
         {/* Container */}
-        <div className='sm:grid-cols-2 md:grid-cols-3 gap-4 'src={portfolio}>
+        <div className='space-y-10 sm:grid-cols-2 md:grid-cols-3 gap-4 'src={portfolio}>
 
             {/* Card container */}
             <div style={{backgroundImage: `url(${portfolio})`}} className='shadow-lg shadow-[rgb(101,184,252)] group container rounded-md flex justify-center items-cener mx-auto content-div'>
@@ -52,7 +52,9 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage:`url(${comingSoon})`}} className='shadow-lg shadow-[rgb(101,184,252)] group container rounded-md flex justify-center items-cener mx-auto content-div'>
+        
+        
+        <div style={{backgroundImage:`url(${comingSoon})`}} className='transition ease-in-out delay-200  hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-600 shadow-lg shadow-[rgb(101,184,252)] group container rounded-md flex justify-center items-cener mx-auto content-div'>
 
             {/* Hover effect */}
             <div className='opacity-0 group-hover:opacity-100'>
@@ -69,9 +71,49 @@ const Projects = () => {
 
                         </div>
                     </div>
-                </div>    
-            </div>
+                
+        </div>    
 
+
+        {/* NEW CODE HERE */}
+        <div style={{backgroundImage:`url(${comingSoon})`}} className='shadow-lg shadow-[rgb(101,184,252)] group container rounded-md flex justify-center items-cener mx-auto content-div'>
+
+            {/* Hover effect */}
+            <div className='opacity-0 group-hover:opacity-100'>
+                <span className='text-2xl font-bold text-white tracking-wider'>
+                    Coming Soon...
+                </span>
+                <div className='pt-8 text-center'>
+                    <a href="/"> 
+                        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                    </a>
+                    <a href="/"> 
+                        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                    </a>
+
+                        </div>
+                    </div>
+                
+        </div>    
+        <div style={{backgroundImage:`url(${comingSoon})`}} className='shadow-lg shadow-[rgb(101,184,252)] group container rounded-md flex justify-center items-cener mx-auto content-div'>
+
+        {/* Hover effect */}
+        <div className='opacity-0 group-hover:opacity-100'>
+            <span className='text-2xl font-bold text-white tracking-wider'>
+                Coming Soon...
+            </span>
+            <div className='pt-8 text-center'>
+                <a href="/"> 
+                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                </a>
+                <a href="/"> 
+                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                </a>
+
+            </div>
+        </div>
+        </div>  
+            </div>
         </div>
     </div>
   )
