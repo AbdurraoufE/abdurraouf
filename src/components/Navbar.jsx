@@ -10,7 +10,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0D1116] text-gray-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0D1116] text-purple-700 border-purple-700'>
         <div>
             <button>
                 <a href='/'>
@@ -20,8 +20,7 @@ const Navbar = () => {
         </div>
 
         {/* menu */}
-
-            <ul className=' hidden md:flex'>
+            <ul className='hidden md:flex'>
                 <li>
                 <Link to="home" smooth={true} duration={500}>
                 Home
@@ -48,7 +47,7 @@ const Navbar = () => {
                 </Link>
                 </li>
             </ul>
-
+            
         {/* Body */}
         <div onClick={handleClick}className='md:hidden z-10'>
             {!nav ? <FaBars /> : <FaTimes />}
