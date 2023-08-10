@@ -36,7 +36,7 @@ const Contact = () => {
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         {/* Info for the top part of contact */}
         <div>
-          <p className='text-4xl font-bold inline border-b-4 border-blue-600'> Contact Me</p>
+          <p className='text-4xl font-bold inline border-b-4 border-purple-700'> Contact Me</p>
           <p className='py-4'>/* These are my contact information*/</p>
         </div>
         <div></div>
@@ -44,20 +44,20 @@ const Contact = () => {
         <div></div>
         <div className='max-w-[1000px] w-full grid sm:grid-cols-4 gap-8 px-4'>
           <a href="https://www.linkedin.com/in/abdurraouf/">
-              <button className='text-white border-2 bg-[#0D1116] hover:bg-blue-600 hover:border-blue-600 px-8 py-3 my-8 mx-auto flex sm:items-left md:items-center rounded-br-lg grid-cols-2 sm:grid-cols-4 gap-4 text-center'>LinkedIn </button>
-              <p className='text-center text-blue-300'>Reach out to me on LinkedIn!</p> 
+              <button className='text-white border-2 bg-[#0D1116] hover:bg-blue-600 hover:border-blue-600 px-8 py-3 my-8 mx-auto flex sm:items-left md:items-center rounded-full grid-cols-2 sm:grid-cols-4 gap-4 text-center'>LinkedIn </button>
+              <p className='text-center text-purple-700'>Reach out to me on LinkedIn!</p> 
            </a>
             <a href="mailto:Roofa.Etagiuri1@gmail.com"> 
-               <button className='text-white border-2 bg-[#0D1116] hover:bg-green-600 hover:border-green-600 px-8 py-3 my-8 mx-auto flex sm:items-left md:items-center rounded-br-lg grid-cols-2 sm:grid-cols-4 gap-4 text-center'>Email</button>
-               <p className='text-center text-blue-300'>Reach out to me on Email!</p> 
+               <button className='text-white border-2 bg-[#0D1116] hover:bg-green-600 hover:border-green-600 px-8 py-3 my-8 mx-auto flex sm:items-left md:items-center rounded-full grid-cols-2 sm:grid-cols-4 gap-4 text-center'>Email</button>
+               <p className='text-center text-purple-700'>Reach out to me on Email!</p> 
              </a>
              <a href="https://drive.google.com/file/d/1Rj5BCgfIgRPbYN6OAIphDeGAwTCBGO6I/view?usp=sharing"> 
-               <button className='text-white border-2 bg-[#0D1116] hover:bg-yellow-600 hover:border-yellow-600 px-8 py-3 my-8 mx-auto flex sm:items-left md:items-center rounded-br-lg grid-cols-2 sm:grid-cols-4 gap-4 text-center'>Resume</button>
-               <p className='text-center text-blue-300'>View my Resume!</p> 
+               <button className='text-white border-2 bg-[#0D1116] hover:bg-yellow-600 hover:border-yellow-600 px-8 py-3 my-8 mx-auto flex sm:items-left md:items-center rounded-full grid-cols-2 sm:grid-cols-4 gap-4 text-center'>Resume</button>
+               <p className='text-center text-purple-700'>View my Resume!</p> 
              </a>
              <a href="https://github.com/AbdurraoufE"> 
-               <button className='text-white border-2 bg-[#0D1116] hover:bg-gray-600 hover:border-gray-600 px-8 py-3 my-8 mx-auto flex sm:items-left md:items-center rounded-br-lg grid-cols-2 sm:grid-cols-4 gap-4 text-center'>GitHub</button>
-               <p className='text-center text-blue-300'>View my recent activity on GitHub!</p> 
+               <button className='text-white border-2 bg-[#0D1116] hover:bg-gray-600 hover:border-gray-600 px-8 py-3 my-8 mx-auto flex sm:items-left md:items-center rounded-full grid-cols-2 sm:grid-cols-4 gap-4 text-center'>GitHub</button>
+               <p className='text-center text-purple-700'>View my recent activity on GitHub!</p> 
              </a>
 
         </div>
