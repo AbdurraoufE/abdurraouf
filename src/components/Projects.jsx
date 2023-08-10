@@ -16,7 +16,7 @@ const Projects = () => {
         <div className='space-y-10 sm:grid-cols-2 md:grid-cols-3 gap-4 'src={portfolio}>
 
             {/* Card container */}
-            <div style={{backgroundImage: `url(${portfolio})`}} className='shadow-lg shadow-[rgb(101,184,252)] group container rounded-md flex justify-center items-cener mx-auto content-div'>
+            <div style={{backgroundImage: `url(${portfolio})`}} className='transition ease-in-out delay-200 hover:-translate-y-1 hover:scale-110 duration-600  shadow-lg shadow-[rgb(126,34,206)] group container rounded-md flex justify-center items-cener mx-auto content-div'>
 
                 {/* Hover effect */}
                 <div className='opacity-0 group-hover:opacity-100'>
@@ -34,7 +34,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            <div style={{backgroundImage:`url(${LMS})`}} className='shadow-lg shadow-[rgb(101,184,252)] group container rounded-md flex justify-center items-cener mx-auto content-div'>
+            <div style={{backgroundImage:`url(${LMS})`}} className='transition ease-in-out delay-200 hover:-translate-y-1 hover:scale-110 duration-600 shadow-lg shadow-[rgb(126,34,206)] group container rounded-md flex justify-center items-cener mx-auto content-div'>
 
             {/* Hover effect */}
             <div className='opacity-0 group-hover:opacity-100'>
@@ -54,7 +54,7 @@ const Projects = () => {
                 </div>
         
         
-        <div style={{backgroundImage:`url(${comingSoon})`}} className='transition ease-in-out delay-200  hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-600 shadow-lg shadow-[rgb(101,184,252)] group container rounded-md flex justify-center items-cener mx-auto content-div'>
+        <div style={{backgroundImage:`url(${comingSoon})`}} className='transition ease-in-out delay-200 hover:-translate-y-1 hover:scale-110 duration-600 shadow-lg shadow-[rgb(126,34,206)] group container rounded-md flex justify-center items-cener mx-auto content-div'>
 
             {/* Hover effect */}
             <div className='opacity-0 group-hover:opacity-100'>
@@ -76,7 +76,7 @@ const Projects = () => {
 
 
         {/* NEW CODE HERE */}
-        <div style={{backgroundImage:`url(${comingSoon})`}} className='shadow-lg shadow-[rgb(101,184,252)] group container rounded-md flex justify-center items-cener mx-auto content-div'>
+        <div style={{backgroundImage:`url(${comingSoon})`}} className='transition ease-in-out delay-200 hover:-translate-y-1 hover:scale-110 duration-600 shadow-lg shadow-[rgb(126,34,206)] group container rounded-md flex justify-center items-cener mx-auto content-div'>
 
             {/* Hover effect */}
             <div className='opacity-0 group-hover:opacity-100'>
@@ -95,7 +95,7 @@ const Projects = () => {
                     </div>
                 
         </div>    
-        <div style={{backgroundImage:`url(${comingSoon})`}} className='shadow-lg shadow-[rgb(101,184,252)] group container rounded-md flex justify-center items-cener mx-auto content-div'>
+        <div style={{backgroundImage:`url(${comingSoon})`}} className='transition ease-in-out delay-200 hover:-translate-y-1 hover:scale-110 duration-600  shadow-lg shadow-[rgb(126,34,206)] group container rounded-md flex justify-center items-cener mx-auto content-div'>
 
         {/* Hover effect */}
         <div className='opacity-0 group-hover:opacity-100'>
