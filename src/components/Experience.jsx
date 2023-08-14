@@ -17,7 +17,7 @@ const Experience = () => {
                 <p className='text-4xl font-bold inline border-b-4 border-purple-700'>Experience</p>
                 <p className='py-4'>// These are some of the technologies I have worked with</p>
             </div>
-
+        <div>
             <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
                 <div className='shadow-md hover:shadow-[rgb(126,34,206)] hover:scale-110 duration-500 '>
                     <img className='w-20 mx-auto' src={Java} alt="HTML icon"/>
@@ -54,6 +54,7 @@ const Experience = () => {
 
             </div>
         </div>
+    </div>
 
     </div>
   )

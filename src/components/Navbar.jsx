@@ -10,7 +10,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0D1116] text-purple-700 border-purple-700'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0D1116] text-purple-700 overline '>
         <div>
             <button>
                 <a href='/'>
@@ -56,7 +56,7 @@ const Navbar = () => {
         {/* Mobile Menu */}
         <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0D1116] flex flex-col justify-center items-center'}>
             <li className='py-6 text-4xl'>
-            <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+            <Link onClick={handleClick} to="home" smooth={true} duration={500} className='underline-purple-700'>
                 Home
                 </Link>
             </li>

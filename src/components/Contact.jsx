@@ -31,7 +31,7 @@ import React from 'react'
 // export default Contact
 
 const Contact = () => {
-  return(
+  return( 
     <div name= "contact" className='w-full h-screen bg-[#0D1116] text-gray-300'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         {/* Info for the top part of contact */}
