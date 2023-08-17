@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@layer base{
+    body{
+        @apply font-sans
+    }li{
+        @apply px-4;
+        @apply cursor-pointer;
+    }
+}
+
+.content-div{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.content-div:hover{
+    background-image: linear-gradient(
+        to right,
+        rgba(178, 203, 255, -0.1),
+        rgba(104, 101, 192, 0.8)
+    )!important;
+}
